@@ -1,0 +1,59 @@
+@media (max-width: 991px) {
+    /* Global CSS */
+    .text-content{
+        width: 100%;
+    }
+    /* Header */
+    .navbar .navbar-brand img{
+        height: 3.8125rem;
+    }
+    .navbar{
+        text-align: center;
+        background-color: var(--white-color);
+    }
+    .navbar .nav-link{
+        line-height: 1.875rem;
+        color: var(--black-color);
+    }
+
+    /* Home */
+    .banner{
+        padding: 9.375rem 0 9.375rem;
+    }
+    /* Reviews */
+    .reviews .carousel-caption p {
+        padding: 0;
+    }
+    /* Footer */
+    .footer .footer-social a i{
+        padding: 0 0.75rem;
+    }
+}
+
+@media (max-width: 767px){
+    /* Global CSS */
+    h1{
+        font-size: 2.8rem;
+    }
+    h2{
+        font-size: 1.3rem;
+        line-height: 28px;
+    }
+
+    /* Home */
+    .banner{
+        padding: 10.375rem 0 9.375rem;
+    }
+
+    /* Reviews */
+    .reviews .carousel-item{
+        padding: 11rem 3.125rem;
+    }
+}
+
+@media (max-width: 330px){
+       /* Reviews */
+       .reviews .carousel-item{
+        padding: 13rem 3.125rem;
+    }
+}
