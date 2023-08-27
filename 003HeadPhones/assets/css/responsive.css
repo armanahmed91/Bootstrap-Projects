@@ -1,0 +1,144 @@
+@media(max-width: 1024px){
+    /* Common Css */
+    h1{
+        font-size: 3.25rem;
+    }
+    h2{
+        font-size: 1.375rem;
+        line-height: 1.8rem;
+    }
+    .wrapper{
+        padding: 1.25rem 0;
+    }
+}
+
+@media (max-width: 991px){
+    /* Common Css */
+    h4, 
+    .choose .card a h4{
+        font-size: 0.9375rem;
+        margin-bottom: 0.625rem;
+    }
+    p{
+        font-size: 0.8125rem;
+        line-height: 1.3125rem;
+    }
+    .text-content{
+        width: 100%;
+    }
+    /* Navbar */
+    .navbar .navbar-brand img{
+        height: 2.8125rem;
+    }
+    .navbar-toggler{
+        color: var(--text-color);
+    }
+    .navbar{
+        text-align: center;
+        background-color: var(--black-color);
+    }
+    .navbar .nav-link{
+        line-height: 1.875rem;
+    }
+    /* Hero Section */
+    #home{
+        padding: 4.375rem 0 0.375rem;
+    }
+    .hero_slider .carousel-caption{
+        transform: translate(-70%, -50%);
+    }
+    #features .card .icon{
+        margin-bottom: 20px;
+    }
+
+    /* Headphones */
+    #headphones .card .product-img{
+        height: 220px;
+    }
+    /* Contact */
+    .contact-form input[type=text]{
+        margin-bottom: 1rem !important;
+    }
+}
+
+@media (max-width: 767px){
+    /* Common Css */
+    .main-btn{
+        margin: auto;
+    }
+    .text-sec{
+        text-align: center;
+        padding-top: 1.875rem;
+    }
+    h2::before{
+        left: 45%;
+    }
+    /* Hero Section */
+    .hero_slider .carousel-caption{
+        transform: translate(-45%, -70%);
+    }
+    .hero_slider .carousel-caption h2::before{
+        left: 0;
+    }
+}
+
+@media (max-width: 575px){
+    /* Common Css */
+    h1{
+        font-size: 1.25rem;
+        line-height: 1rem;
+        margin-bottom: 5px;
+    }
+    h2 {
+        font-size: 1.25rem;
+        line-height: 1rem;
+        margin-bottom: 5px;
+    }
+    /* About */
+    .about-slider{
+        width: 50%;
+        margin: auto;
+    }
+    #about .carousel-inner{
+        border-radius: 0 0 1.875rem;
+    }
+
+     /* Headphones */
+     #headphones .card .product-img{
+        height: 13.75rem;
+        width: 50%;
+        text-align: center;
+        margin: auto;
+    }
+    /* Contact */
+    .contact-form input[type=text],
+    .contact-form input[type=email],
+    .contact-form .subscribe{
+        padding: 0 0.625rem;
+        font-size: 0.875rem;
+        text-align: center;
+    }
+    .contact-form .form-group,
+    .contact-form input[type=text]{
+        margin: 0;
+        width: 100%;
+    }
+    .contact-form .form-group{
+        white-space: nowrap;
+    }
+    .contact-form input[type=email]{
+        width: 50%;
+    }
+}
+
+@media (max-width: 430px){
+    /* Common CSS */
+    h2::before{
+        top: -0.8rem;
+    }
+    /* Hero Section */
+    .hero_slider .carousel-caption p{
+        font-size: 0.75rem;
+        line-height: 1.125rem;
+    }
+}
