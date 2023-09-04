@@ -1,0 +1,102 @@
+@media (max-width: 1300px){
+/* Navbar */
+.menu-navbar-nav{
+    width: auto;
+}
+}
+@media (max-width: 1230px){
+    /* Navbar */
+    .nav-item{
+        margin: 0 5px;
+    }
+
+    
+     .navbar .learn-more-btn{
+        padding: 12px 10px !important;
+    }
+    /* Banner */
+    .banner .banner-title{
+        font-size: 50px;
+    }
+
+}
+@media (max-width: 1070px){
+    /* Navbar */
+    .nav-item .nav-link{
+        font-size: 16px;
+    }
+    /* About */
+    #about .about_title{
+        font-size: 30px;
+    }
+}
+@media (max-width: 991px){
+    /* Navbar */
+    .navbar-brand img{
+        width: 180px;
+    }
+    .navbar-toggler:focus{
+        box-shadow: none;
+        outline: none;
+    }
+    .menu-navbar-nav{
+        text-align: center;
+    }
+    .nav-item .nav-link{
+        margin-top: 15px;
+        font-size: 18px;
+    }
+    .nav-item:last-child .nav-link{
+        margin-bottom: 20px;
+    }
+    .navbar-collapse{
+        background: var(--bg-white);
+    }
+    .navbar .learn-more-btn{
+        padding: 12px 29px !important;
+    }
+    /* Banner */
+    .banner .banner-title{
+        font-size: 36px;
+    }
+    /* About */
+    #about .about_number{
+        margin: 20px auto;
+    }
+    #about .about_title{
+        font-size: 24px;
+    }
+    /* Brands */
+    #brands .showcase_card img{
+        padding: 5px 10px;
+        border-radius: 10px;
+    }
+    
+}
+@media (max-width: 767px){
+    /* Banner */
+    .banner{
+        padding: 100px 0 100px;
+    }
+    .banner .row{
+        flex-direction: column-reverse;
+    }
+    .banner .learn-more-btn-section{
+        justify-content: center;
+    }
+
+    /* Pricing */
+    .free_trial .free_title{
+        font-size: 24px;
+    }
+
+    /* FAQS */
+    #faqs .accordion-button{
+        font-size: 18px;
+    }
+    /* Footer */
+    #contact .footer_logo img{
+        max-width: 50%;
+    }
+    
+}
