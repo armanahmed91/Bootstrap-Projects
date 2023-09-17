@@ -1,0 +1,97 @@
+@media(max-width:1300px){
+    /* Custom CSS */
+    h1{
+        font-size: 50px;
+    }
+    /* Navbar */
+    .navbar-nav{
+        width: auto;
+    }
+}
+@media(max-width:1230px){
+    /* Navbar */
+    .navbar .nav-item{
+        margin: 0 5px;
+    }
+    /* Banner */
+    #home{
+        padding: 50px 0 10px;
+    }
+}
+@media(max-width:1070px){
+    /* Navbar */
+    .navbar .nav-item .nav-link{
+        font-size: 16px;
+    }
+    /* Banner */
+    .carousel-caption{
+        bottom: 1.25rem;
+    }
+}
+@media(max-width:992px){
+    /* Custom CSS */
+    h1{
+        font-size: 30px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    h4{
+        font-size: 18px;
+    }
+    /* Navbar */
+    .navbar{
+        background: var(--bg-red);
+    }
+    .navbar .navbar-brand img{
+        width: 180px;
+    }
+    .header-scrolled{
+        height: auto;
+    }
+    .navbar .navbar-toggler:focus{
+        outline: none;
+        box-shadow: none;
+    }
+    .navbar .navbar-nav{
+        text-align: center;
+    }
+    .navbar .nav-item .nav-link{
+        margin-top: 15px;
+    }
+
+    /* Footer */
+    .newsletter{
+        border-radius: 30px;
+    }
+}
+
+@media(max-width:610px){
+    /* Custom CSS */
+    h1{
+        font-size: 25px;
+    }
+    h3{
+        font-size: 16px;
+    }
+    .main-btn{
+        font-size: 13px !important;
+    }
+
+    /* Banner */
+    #home{
+        padding-top: 90px;
+    }
+    #home .carousel-caption{
+        bottom: -0.25rem;
+    }
+    #home .carousel-inner{
+        height: 200px;
+    }
+    #home .carousel-item{
+        height: 100%;
+    }
+    #home .carousel-indicators{
+        bottom: -20px;
+    }
+}
