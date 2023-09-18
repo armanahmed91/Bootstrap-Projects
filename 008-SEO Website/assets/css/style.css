@@ -1,0 +1,254 @@
+
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+/* 
+=====================
+General CSS
+=====================
+*/
+ *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+ :root{
+    /* Background Color */
+    --secondary-color: #f77949;
+    --bg-blue: #37418e;
+    --bg-white: #fff;
+    --bg-dark-blue: #292b70;
+    --bg-gray: #ecf0f9;
+
+    /* Text Color */
+    --text-black: #1f1f1f;
+    --text-blue: #1f294c;
+    --text-gray: #6d6e7b;
+    --text-white: #fff;
+
+    /* Fonts */
+    --primary-font: 'Open Sans Condensed', sans-serif;
+    --secondary-font: 'open sans', sans-serif;
+ }
+body{
+    font-family: var(--secondary-font);
+    background-image: url('../images/page-background.jpg');
+    background-size: cover;
+    background-position: center 0px;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    overflow-x: hidden;
+}
+
+/* 
+=====================
+Custom CSS
+=====================
+*/
+
+/* Scrollbar */
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background: var(--bg-gray);
+}
+::-webkit-scrollbar-thumb{
+    background: var(--secondary-color);
+}
+
+section{
+    padding: 50px 0;
+}
+.main-btn{
+    display: inline-block;
+    padding: 10px 37px;
+    background-color: var(--secondary-color);
+    color: var(--text-white);
+    font-weight: 700;
+    font-family: var(--primary-font);
+    font-size: 17px;
+    text-decoration: none;
+    box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+    border-radius: 26px;
+    transition: 0.2s;
+}
+.main-btn:hover{
+    background-color: var(--bg-blue);
+    color: var(--text-white);
+}
+h1{
+    font-size: 70px;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    color: var(--text-blue);
+    margin-bottom: 16px;
+}
+h2{
+    font-size: 45px;
+    line-height: 64px;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    color: var(--text-blue);
+    margin-bottom: 15px;
+    letter-spacing: 0;
+}
+h3{
+    font-size: 30px;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    color: var(--text-blue);
+    margin-bottom: 15px;
+    letter-spacing: 0;
+}
+p{
+    color: var(--text-gray);
+    font-size: 15px;
+    line-height: 28px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+input:hover,
+input:focus,
+textarea:hover,
+button{
+    border-color: var(--secondary-color) !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* 
+=====================
+Navbar
+=====================
+*/
+.navbar{
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+.navbar .navbar-brand img{
+    max-width: 150px;
+    height: auto;
+}
+.navbar .navbar-toggler:focus{
+    box-shadow: none;
+
+}
+.navbar .nav-item{
+    margin: 0 10px;
+}
+.navbar .nav-item .nav-link{
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--text-blue);
+    font-family: var(--primary-font);
+    text-transform: uppercase;
+}
+.navbar .nav-item .nav-link.active,
+.navbar .nav-item .nav-link:hover{
+    color: var(--secondary-color);
+}
+.header-scrolled{
+    position: fixed;
+    margin-top: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 85px;
+    background-color: var(--bg-white);
+    -webkit-box-shadow: 0 4px 6px 0 rgba(12, 0, 46, 0.05);
+    box-shadow: 0 4px 6px 0 rgba(12, 0, 46, 0.05);
+}
+
+/* 
+=====================
+Banner
+=====================
+*/
+#home{
+    padding-top: 100px;
+}
+
+/* 
+=====================
+Services
+=====================
+*/
+#services h3 span{
+    color: var(--secondary-color);
+}
+#services .service_phone{
+    max-width: 70%;
+}
+
+/* 
+=====================
+Blog
+=====================
+*/
+
+#blog .newsletter-wrapper{
+    background-color: var(--bg-blue);
+}
+#blog .newsletter{
+    width: 50%;
+    margin: auto;
+}
+ .newsletter-wrapper .form-control{
+    background-color: var(--bg-dark-blue);
+    border: 0;
+    border-color: var(--bg-dark-blue);
+    border-style: solid;
+    border-radius: 26px;
+    color: var(--text-white);
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    padding: 10px 32px;
+}
+.newsletter-wrapper input::placeholder{
+    color: var(--text-white);
+}
+.newsletter-wrapper a{
+    color: var(--text-blue);
+    text-decoration: none;
+}
+.newsletter-wrapper .date,
+.newsletter-wrapper a:hover{
+    color: var(--secondary-color);
+}
+
+/* 
+=====================
+Contact
+=====================
+*/
+#contact input,
+#contact textarea{
+    background-color: var(--bg-white);
+    border-color: var(--bg-gray);
+    border-radius: 15px;
+    color: var(--text-gray);
+    font-size: 15px;
+    font-weight: 400;
+    padding: 15px 32px 15px 21px;
+}
+
+/* 
+=====================
+Footer
+=====================
+*/
+
+.footer_wrapper a{
+    color: var(--text-gray);
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.footer_wrapper a:hover{
+    color: var(--secondary-color);
+}
