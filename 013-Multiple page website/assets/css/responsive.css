@@ -1,0 +1,72 @@
+@media (max-width: 1170px) {
+  /* General CSS */
+  .section-subtitle {
+    max-width: 60%;
+  }
+  /* Navbar */
+  .navbar {
+    background-size: cover;
+    padding: 2rem;
+  }
+  .navbar .navbar-nav {
+    margin-top: 2rem;
+  }
+  .navbar .navbar-nav .nav-link {
+    padding: 0.2rem 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .header_right span {
+    padding: 0.2rem 0.5rem;
+  }
+
+  /* Banner Section */
+  .banner_section .carousel-item {
+    height: 90vh;
+  }
+}
+@media (max-width: 991px) {
+  /* General CSS */
+  .about .banner_section,
+  .product .banner_section,
+  .gallery .banner_section,
+  .contact .banner_section {
+    padding-top: 12.5rem;
+    padding-bottom: 3rem;
+  }
+  /* Navbar */
+  .navbar {
+    background-size: cover;
+    padding: 1rem 2rem;
+  }
+  .navbar .navbar-nav {
+    margin-top: 2rem;
+  }
+  .navbar .navbar-nav .nav-link {
+    padding: 0.2rem 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .header_right span {
+    padding: 0.2rem 0.5rem;
+  }
+}
+@media (max-width: 767px) {
+  /* General CSS */
+  body,
+  html {
+    font-size: 8px;
+  }
+  .section-subtitle {
+    max-width: 80%;
+  }
+  /* Banner Section */
+  .banner_section {
+    min-height: 70vh;
+  }
+}
+@media (max-width: 590px) {
+  /* General CSS */
+  body,
+  html {
+    font-size: 7px;
+  }
+}
